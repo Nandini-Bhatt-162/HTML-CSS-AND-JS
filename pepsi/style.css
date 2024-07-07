@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec{
+    position: relative;
+    width:auto;
+    max-width:100%;
+    min-height: auto;
+    padding:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0062be;
+    transition: 0.9s;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+header ul li{
+    width: 100%;
+    list-style: none;
+}
+header ul li a{
+    transition: 0.5s;
+    display: inline-block;
+    color: #ffff;
+    font-weight: 300;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textbox h2{
+    color: #fff;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content .textbox h2 span{
+    font-size: 2em;
+}
+.content .textbox p{
+    color: #fff;
+}
+.content .imgBox{
+    width: auto;
+    display: flex;
+    padding-right: 50px;
+    margin-top: 50px;
+    justify-content: flex-end;
+}
+.content .imgBox img{
+    max-width: 260px;
+}
