@@ -1,1 +1,1 @@
-Landing page of Pepsi using HTML, CSS and JS.
+Using HTML, CSS and JS for creating different projects.
